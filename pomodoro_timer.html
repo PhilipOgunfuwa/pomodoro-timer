@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="Study App">
+  <link rel="stylesheet" href="styling_sheet.css">
+  <title>Pomodoro Timer</title>
+</head>
+
+<body>
+<h1>Pomodoro Timer</h1>
+<div class="main">
+  <div class="timer" id="timer">25:00</div>
+  <div class="buttons">
+    <div class="timer-buttons-grid">
+      <button onclick="togglePauseOrResume()">Start</button>
+      <button onclick="setPomodoroTimer()">Pomodoro</button>
+      <button onclick="setPomodoroBreak()">Short Break</button>
+      <button onclick="setPomodoroBreak(true)">Long Break</button>
+      <button onclick="fastForward()">Skip</button>
+      <button onclick="openSettingMenu()">Settings</button>
+    </div>
+  </div>
+  <p id="Pomodoro Streak">Pomodoro Streak of 0</p>
+</div>
+<script src="pomodoro_timer.js"></script>
+</body>
+
+</html>

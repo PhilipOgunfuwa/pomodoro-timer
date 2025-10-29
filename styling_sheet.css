@@ -1,0 +1,54 @@
+
+h1 {
+    color: #fff;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    background-color: #08787F;
+}
+
+.timer {
+    font-size: 100px;
+    color: #fff;
+
+}
+.main {
+    background-color: #0C8990;
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    height: 500px;
+    font-weight: bold;
+}
+.buttons {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.timer-buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+.buttons button{
+    background-color: #fff;
+    color: #08787F;
+    font-weight: bold;
+    border: 3px solid white;
+    border-radius: 3px;
+    white-space: nowrap;
+    font-size: 20px;
+    cursor: pointer;
+    width: 160px;
+    height: 50px;
+}
