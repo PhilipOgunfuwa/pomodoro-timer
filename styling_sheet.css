@@ -1,6 +1,10 @@
 
 h1 {
-    color: #08787F;
+    color: #fff;
+}
+
+html {
+    background-color: #08787F;
 }
 
 body {
